@@ -1,6 +1,7 @@
 import pyautogui as gui
 import time
 from colorama import *
+#TRANSLATE IT TEXT TO ENGLISH IF YOUR DONT KNOW RUSSIA LANGUAGE
  #Исходный код бота для автоподнятия слотов
 #После запуска бота нужно зайти на сайт FunPay и выбрать слот
 init()
@@ -9,6 +10,7 @@ gui.PAUSE = 2
 def funStart():
        print(Fore.MAGENTA + "Created By LUVI | Public auto bot FunPay | Version: 1.0 Beta")
        time.sleep(5)
+       #gui.click(Ваши дейтсвия)
        gui.click(1232,192)
        gui.click(790,264)
        gui.click(792,281)
