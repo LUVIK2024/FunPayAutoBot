@@ -1,14 +1,13 @@
 import pyautogui as gui
 import time
-#Исходный код бота для автоподнятия слотов
+from colorama import *
+ #Исходный код бота для автоподнятия слотов
 #После запуска бота нужно зайти на сайт FunPay и выбрать слот
-
+init()
 screenWidth, screenHeight = gui.size() # Получаем размер экрана.
-mousePos = gui.position()
 gui.PAUSE = 2
 def funStart():
-       print("Created By LUVI")
-       print("Private auto bot FunPay")
+       print(Fore.MAGENTA + "Created By LUVI | Public auto bot FunPay | Version: 1.0 Beta")
        time.sleep(5)
        gui.click(1232,192)
        gui.click(790,264)
@@ -20,7 +19,6 @@ def funStart():
        gui.click(1491,123)
        gui.click(1417,192)
        gui.click(1007,866)
-       return 0
 while True:
        funStart()
        time.sleep(14400)
